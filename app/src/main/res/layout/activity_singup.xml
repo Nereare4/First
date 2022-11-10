@@ -14,13 +14,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/tree_svgrepo_com"/>
+        android:src="@drawable/veterinarian_svgrepo_com"/>
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilusername"
         app:layout_constraintTop_toBottomOf="@id/tree"
         app:layout_constraintEnd_toEndOf="@id/rightguide"
         app:layout_constraintStart_toStartOf="@+id/leftguide"
-        app:startIconDrawable="@drawable/ic_action_pumpkin"
+        app:startIconDrawable="@drawable/ic_action_paw"
         style="@style/textinputlayoutUsername">
         <EditText
             android:layout_width="match_parent"
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Repeat password"
+            android:hint="Confirm password"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
     <Button
