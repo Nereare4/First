@@ -1,4 +1,4 @@
-package com.example.fundamentals;
+package com.nramos.first;
 
 import org.junit.Test;
 
