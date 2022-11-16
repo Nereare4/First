@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -29,6 +31,13 @@ public class LoginActivity extends AppCompatActivity {
                 openSignup();
             }
         });
+        //Objeto sobre el que creamos la animación
+        ImageView logo = findViewById(R.id.loginGirl);
+
+        //Creamos un objeto animacion que incorpora la animacion descrita en el xml
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        logo.startAnimation(myanim);
+
         ImageView mLogo = findViewById(R.id.loginGirl);
         ImageView mFondo = findViewById(R.id.fondo);
 
