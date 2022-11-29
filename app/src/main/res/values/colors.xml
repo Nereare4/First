@@ -10,4 +10,8 @@
     <color name="blue">#a5dbf2 </color>
     <color name="yellow">#f3f968 </color>
     <color name="fucsia_200">#E91E63</color>
+    <color name="paleta_primary">#344955</color>
+    <color name="paleta_secondary">#F9AA33</color>
+    <color name="paleta_oscuro">#232F34</color>
+    <color name="paleta_claro">#4A6572</color>
 </resources>

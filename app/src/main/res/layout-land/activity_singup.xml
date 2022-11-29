@@ -72,7 +72,7 @@
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
     <Button
-        android:id="@+id/btnSignup"
+        android:id="@+id/login"
         app:layout_constraintTop_toBottomOf="@+id/tilrepeatpassword"
         app:layout_constraintStart_toStartOf="@id/leftguide"
         android:text="sign up"
@@ -80,8 +80,8 @@
     <Button
         android:id="@+id/cancel"
         app:layout_constraintEnd_toStartOf="@id/rightguide"
-        app:layout_constraintStart_toEndOf="@id/btnSignup"
-        app:layout_constraintTop_toTopOf="@id/btnSignup"
+        app:layout_constraintStart_toEndOf="@id/login"
+        app:layout_constraintTop_toTopOf="@id/login"
         android:text="Cancel"
         style="@style/mainbuttonblue" />
 
