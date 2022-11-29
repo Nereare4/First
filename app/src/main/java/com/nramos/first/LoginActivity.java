@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
         ImageView logo = findViewById(R.id.loginGirl);
 
         //Creamos un objeto animacion que incorpora la animacion descrita en el xml
-        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.blink);
         logo.startAnimation(myanim);
 
         ImageView mLogo = findViewById(R.id.loginGirl);

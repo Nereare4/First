@@ -16,7 +16,8 @@
         tools:targetApi="31">
         <activity
             android:name=".Splash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/MyTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,14 +37,16 @@
         </activity>
         <activity
             android:name=".SingupActivity"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/MyTheme.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/MyTheme.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
