@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toStartOf="@id/rightguide"
         app:layout_constraintStart_toEndOf="@id/btnSignup"
         app:layout_constraintTop_toTopOf="@id/btnSignup"
-        android:text="Cancel"
+        android:text="@string/btnCancel"
         style="@style/mainbuttonblue" />
 
     <androidx.constraintlayout.widget.Guideline

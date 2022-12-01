@@ -83,7 +83,7 @@
         app:layout_constraintEnd_toStartOf="@id/rightguide"
         app:layout_constraintStart_toEndOf="@id/btnLogin"
         app:layout_constraintTop_toTopOf="@id/btnLogin"
-        android:text="Cancel"
+        android:text="@string/btnCancel"
         style="@style/mainbuttonblue"/>
     <TextView
         android:id="@+id/texto"

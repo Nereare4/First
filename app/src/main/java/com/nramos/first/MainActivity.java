@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(this);
 
 //        //el dialogo estandar tiene título/icono pero podemos sustituirlo por un XML a medida
-        builder.setTitle("Vas a abandorme!");
+        builder.setTitle("Vas a abandonarme!");
         builder.setMessage("Where do you go?");
         builder.setIcon(R.drawable.veterinarian_svgrepo_com);
         builder.setCancelable(false);
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 // do something like...
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
-                dialog.dismiss();
+                dialog.dismiss();//para que cierre el cuadro de dialogo
 
             }
         });
