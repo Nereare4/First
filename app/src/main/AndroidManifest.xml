@@ -15,6 +15,13 @@
         android:theme="@style/Theme.Fundamentals"
         tools:targetApi="31">
         <activity
+            android:name=".MainBab"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/MyTheme.NoActionBar">
@@ -23,6 +30,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
